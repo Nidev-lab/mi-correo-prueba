@@ -1,0 +1,45 @@
+.form-container {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+
+.margin-vertical {
+  margin: 20px 0px;
+}
+
+.width-100-flex {
+  width: 100%;
+  display: flex;
+}
+
+.address-number {
+  width: 28%;
+  margin-left: auto;
+}
+
+.width-70 {
+  width: 70%;
+}
+.width-25 {
+  width: 25%;
+}
+
+.department {
+  width: 25%;
+  margin-left: auto;
+}
+
+.width-45 {
+  width: 45%;
+  margin-left: auto;
+}
+
+.cellphone-number {
+  width: 45%;
+}
+
+.buttons {
+  margin-top: 36px;
+  margin-bottom: 60px;
+}

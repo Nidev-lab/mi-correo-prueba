@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selector-container {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.card-content {
+  padding: 20px;
+}

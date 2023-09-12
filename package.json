@@ -1,0 +1,36 @@
+{
+  "name": "mi-correo",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@remix-run/router": "^1.8.0",
+    "@shopify/app": "3.47.5",
+    "@shopify/cli": "3.47.5",
+    "@shopify/polaris-icons": "^7.8.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "mssql": "^9.1.2",
+    "react-hook-form": "^7.45.2",
+    "react-router": "^6.15.0"
+  },
+  "author": "codeait",
+  "private": true,
+  "workspaces": [
+    "web",
+    "web/frontend",
+    "extensions/*"
+  ],
+  "devDependencies": {
+    "sass": "^1.64.1"
+  }
+}

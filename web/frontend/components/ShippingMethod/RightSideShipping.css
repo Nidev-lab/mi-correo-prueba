@@ -1,0 +1,28 @@
+.productBadge {
+  > .Polaris-Badge {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+  }
+  position: relative;
+  display: inline-block;
+}
+
+.alignCenterItems > .Polaris-Grid {
+  align-items: center;
+}
+
+.section-below {
+  margin-bottom: 1rem;
+}
+
+.section {
+  .Polaris-Divider {
+    margin-bottom: 1rem;
+  }
+  > .Polaris-Grid > .Polaris-Grid-Cell > .Polaris-Text--root > .currency {
+    font-size: 10px;
+    margin-right: 0.5rem;
+  }
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,28 @@
+.success-container {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.success-title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.success-icon {
+  color: green;
+  border-radius: 400 px;
+  border: 5 px solid;
+  padding: 40 px;
+  height: 150 px !important;
+  width: 150 px;
+}

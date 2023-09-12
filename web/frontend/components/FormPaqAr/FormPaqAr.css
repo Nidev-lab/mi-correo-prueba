@@ -1,0 +1,27 @@
+.login-container {
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  padding: 50px;
+  width: 60%;
+}
+
+.title {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.login-btn {
+  width: 100% !important;
+}
+
+.register {
+  margin-top: 20px;
+}
+
+.wrong-pass {
+  font-size: 18px;
+  color: red;
+  margin-top: 10px;
+}
